@@ -38,6 +38,7 @@ curl 'http://localhost:3000/api/profiles/random?tag=friend&exclude=mew'
 {
   id: 'mew',
   name: 'Mew',
+  description: 'A short description shown in profile pickers.',
   image: '/profiles/mew.webp',
   alt: 'Mew profile picture',
   tags: ['friend'],

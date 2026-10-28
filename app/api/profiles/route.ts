@@ -10,7 +10,7 @@ export function GET(request: Request) {
   const offset = Math.max(Number(url.searchParams.get('offset')) || 0, 0);
 
   const filtered = profiles.filter((profile) => {
-    const matchesQuery = !query || `${profile.id} ${profile.name} ${profile.tags.join(' ')}`.toLocaleLowerCase().includes(query);
+    const matchesQuery = !query || `${profile.id} ${profile.name} ${profile.description} ${profile.tags.join(' ')}`.toLocaleLowerCase().includes(query);
     const matchesTag = !tag || profile.tags.some((item) => item.toLocaleLowerCase() === tag);
     return matchesQuery && matchesTag;
   });

@@ -3,6 +3,7 @@ import profileCatalog from '@/config/profiles.js';
 export type Profile = {
   id: string;
   name: string;
+  description: string;
   image: string;
   alt: string;
   tags: string[];

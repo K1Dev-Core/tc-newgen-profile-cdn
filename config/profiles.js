@@ -6,6 +6,7 @@ const profiles = [
   {
     id: 'nok-phirab',
     name: 'นกพิราบสื่อสาร',
+    description: 'นกพิราบผู้ส่งสารประจำห้อง พร้อมส่งข่าวถึงเพื่อนทุกเวลา',
     image: '/profiles/nok-phirab.webp',
     alt: 'นกพิราบสื่อสาร',
     tags: ['pigeon', 'friend'],
@@ -13,6 +14,7 @@ const profiles = [
   {
     id: 'ghost',
     name: 'พิราบโกสต์',
+    description: 'พิราบลึกลับผู้บินเงียบกริบในยามค่ำคืน',
     image: '/profiles/ghost.webp',
     alt: 'พิราบโกสต์',
     tags: ['pigeon', 'friend'],
@@ -20,6 +22,7 @@ const profiles = [
   {
     id: 'hawkeye',
     name: 'พิราบฮอว์กอาย',
+    description: 'นักสังเกตการณ์สายตาเฉียบ มองเห็นทุกความเคลื่อนไหว',
     image: '/profiles/hawkeye.webp',
     alt: 'พิราบฮอว์กอาย',
     tags: ['pigeon', 'friend'],
@@ -27,6 +30,7 @@ const profiles = [
   {
     id: 'clark-kent',
     name: 'พิราบคลาร์กเคนต์',
+    description: 'พิราบผู้มีสองตัวตน ทั้งเพื่อนบ้านแสนดีและฮีโร่ผู้พิทักษ์',
     image: '/profiles/clark-kent.webp',
     alt: 'พิราบคลาร์กเคนต์',
     tags: ['pigeon', 'friend'],
@@ -34,6 +38,7 @@ const profiles = [
   {
     id: 'cowboy',
     name: 'พิราบคาวบอย',
+    description: 'คาวบอยปีกไวจากแดนตะวันตก ผู้รักษาความสงบในห้องแชท',
     image: '/profiles/cowboy.webp',
     alt: 'พิราบคาวบอย',
     tags: ['pigeon', 'friend'],
@@ -41,6 +46,7 @@ const profiles = [
   {
     id: 'kakashi',
     name: 'พิราบคาคาชิ',
+    description: 'นินจาผู้สุขุม เชี่ยวชาญกลยุทธ์และการส่งสารลับ',
     image: '/profiles/kakashi.webp',
     alt: 'พิราบคาคาชิ',
     tags: ['pigeon', 'friend'],
@@ -48,6 +54,7 @@ const profiles = [
   {
     id: 'geralt',
     name: 'พิราบเกรอลต์',
+    description: 'นักล่าปีกเทาผู้รับมือกับทุกภารกิจอย่างใจเย็น',
     image: '/profiles/geralt.webp',
     alt: 'พิราบเกรอลต์',
     tags: ['pigeon', 'friend'],
@@ -55,6 +62,7 @@ const profiles = [
   {
     id: 'loki',
     name: 'พิราบโลกิ',
+    description: 'จอมเจ้าเล่ห์ผู้ชอบสร้างสีสันและเรื่องเหนือคาดหมาย',
     image: '/profiles/loki.webp',
     alt: 'พิราบโลกิ',
     tags: ['pigeon', 'friend'],
@@ -62,6 +70,7 @@ const profiles = [
   {
     id: 'bruce-wayne',
     name: 'พิราบบรูซเวย์น',
+    description: 'ผู้พิทักษ์รัตติกาลที่คอยเฝ้าดูแลเมืองจากบนฟ้า',
     image: '/profiles/bruce-wayne.webp',
     alt: 'พิราบบรูซเวย์น',
     tags: ['pigeon', 'friend'],
@@ -69,6 +78,7 @@ const profiles = [
   {
     id: 'itachi',
     name: 'พิราบอิตาจิ',
+    description: 'พิราบผู้สุขุมและมองการณ์ไกล บินเดี่ยวแต่ห่วงใยฝูงเสมอ',
     image: '/profiles/itachi.webp',
     alt: 'พิราบอิตาจิ',
     tags: ['pigeon', 'friend'],
@@ -76,9 +86,50 @@ const profiles = [
   {
     id: 'longhair-suit',
     name: 'พิราบสาวผมยาวชุดสูท',
+    description: 'พิราบสาวลุคมืออาชีพ สุภาพ มั่นใจ และพร้อมลุยงาน',
     image: '/profiles/longhair-suit.webp',
     alt: 'พิราบสาวผมยาวชุดสูท',
     tags: ['pigeon', 'friend'],
+  },
+  {
+    id: 'moon-royal',
+    name: 'พิราบจันทราราชินี',
+    description: 'พิราบสง่างามในผ้าไหมสีชมพู ประดับทองใต้แสงจันทร์',
+    image: '/profiles/moon-royal.webp',
+    alt: 'พิราบจันทราราชินีสวมผ้าไหมสีชมพู',
+    tags: ['pigeon', 'friend', 'fantasy', 'thai'],
+  },
+  {
+    id: 'flame-ninja',
+    name: 'พิราบนินจาเพลิง',
+    description: 'นินจาปีกไวผู้ควบคุมเปลวไฟ พร้อมออกปฏิบัติการ',
+    image: '/profiles/flame-ninja.webp',
+    alt: 'พิราบนินจาผมสีทองท่ามกลางเปลวไฟ',
+    tags: ['pigeon', 'friend', 'ninja', 'fantasy'],
+  },
+  {
+    id: 'moon-shadow',
+    name: 'พิราบเงาจันทรา',
+    description: 'นักดาบผู้สุขุม ผู้พิทักษ์ใต้แสงจันทร์',
+    image: '/profiles/moon-shadow.webp',
+    alt: 'พิราบนักดาบชุดสีเข้มใต้แสงจันทร์',
+    tags: ['pigeon', 'friend', 'ninja', 'fantasy'],
+  },
+  {
+    id: 'green-cosmic',
+    name: 'พิราบเอเลี่ยนกรีน',
+    description: 'นักผจญภัยจากต่างดาวท่ามกลางพลังจักรวาลสีเขียว',
+    image: '/profiles/green-cosmic.webp',
+    alt: 'พิราบนักเดินทางอวกาศกับพลังจักรวาลสีเขียว',
+    tags: ['pigeon', 'friend', 'space', 'fantasy'],
+  },
+  {
+    id: 'dimension-scientist',
+    name: 'พิราบนักวิทย์มิติ',
+    description: 'นักวิทยาศาสตร์ข้ามมิติผู้พกอุปกรณ์ทดลองสุดล้ำ',
+    image: '/profiles/dimension-scientist.webp',
+    alt: 'พิราบนักวิทยาศาสตร์ถืออุปกรณ์ทดลองท่ามกลางจักรวาล',
+    tags: ['pigeon', 'friend', 'science', 'space'],
   }
 ];
 
