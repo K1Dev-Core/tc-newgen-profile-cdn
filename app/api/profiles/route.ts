@@ -18,6 +18,6 @@ export function GET(request: Request) {
 
   return Response.json(
     { data: items, pagination: { total: filtered.length, limit, offset, hasMore: offset + items.length < filtered.length } },
-    { headers: { 'Cache-Control': catalogCache } },
+    { headers: { 'Cache-Control': catalogCache, 'Access-Control-Allow-Origin': '*' } },
   );
 }
