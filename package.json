@@ -1,0 +1,23 @@
+{
+  "name": "tc-newgen-profile-cdn",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run validate:profiles && next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "validate:profiles": "node scripts/validate-profiles.mjs"
+  },
+  "dependencies": {
+    "next": "^16.4.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.7.2"
+  }
+}
