@@ -130,6 +130,30 @@ const profiles = [
     image: '/profiles/dimension-scientist.webp',
     alt: 'พิราบนักวิทยาศาสตร์ถืออุปกรณ์ทดลองท่ามกลางจักรวาล',
     tags: ['pigeon', 'friend', 'science', 'space'],
+  },
+  {
+    id: 'red-mask-hero',
+    name: 'พิราบหน้ากากแดง',
+    description: 'ฮีโร่ชุดแดงสายกวน พร้อมส่งมุกและคุ้มครองฝูง',
+    image: '/profiles/red-mask-hero.gif',
+    alt: 'ฮีโร่นกหน้ากากแดงในชุดสีแดง',
+    tags: ['hero', 'comic', 'red'],
+  },
+  {
+    id: 'web-slinger',
+    name: 'พิราบใยแมงมุม',
+    description: 'นักแกว่งใยผู้ว่องไว พร้อมโหนข้ามเมืองไปส่งสาร',
+    image: '/profiles/web-slinger.gif',
+    alt: 'ฮีโร่นกสวมหน้ากากลายใยแมงมุม',
+    tags: ['hero', 'comic', 'spider'],
+  },
+  {
+    id: 'green-smash',
+    name: 'พิราบพลังเขียว',
+    description: 'นักสู้ร่างเขียวพลังล้น ใจดีต่อเพื่อนในฝูง',
+    image: '/profiles/green-smash.gif',
+    alt: 'ฮีโร่นกกล้ามเขียวในท่าต่อสู้',
+    tags: ['hero', 'comic', 'green'],
   }
 ];
 
