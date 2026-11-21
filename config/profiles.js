@@ -137,6 +137,7 @@ const profiles = [
     description: 'ฮีโร่ชุดแดงสายกวน พร้อมส่งมุกและคุ้มครองฝูง',
     image: '/profiles/red-mask-hero.gif',
     alt: 'ฮีโร่นกหน้ากากแดงในชุดสีแดง',
+    animated: true,
     tags: ['hero', 'comic', 'red'],
   },
   {
@@ -145,6 +146,7 @@ const profiles = [
     description: 'นักแกว่งใยผู้ว่องไว พร้อมโหนข้ามเมืองไปส่งสาร',
     image: '/profiles/web-slinger.gif',
     alt: 'ฮีโร่นกสวมหน้ากากลายใยแมงมุม',
+    animated: true,
     tags: ['hero', 'comic', 'spider'],
   },
   {
@@ -153,6 +155,7 @@ const profiles = [
     description: 'นักสู้ร่างเขียวพลังล้น ใจดีต่อเพื่อนในฝูง',
     image: '/profiles/green-smash.gif',
     alt: 'ฮีโร่นกกล้ามเขียวในท่าต่อสู้',
+    animated: true,
     tags: ['hero', 'comic', 'green'],
   },
   {
@@ -161,6 +164,7 @@ const profiles = [
     description: 'จอมเวทปีกขาวผู้เปิดดวงตาสีฟ้าและมองทะลุทุกสถานการณ์',
     image: '/profiles/gojo-blue.webp',
     alt: 'นกจิบิผมขาวเปิดดวงตาสีน้ำเงิน',
+    animated: true,
     tags: ['anime', 'sorcerer', 'blue'],
   },
   {
@@ -169,6 +173,7 @@ const profiles = [
     description: 'ราชาคำสาปแห่งศาลเจ้าสีชาด ผู้ทรงพลังและน่าเกรงขาม',
     image: '/profiles/sukuna-scarlet.webp',
     alt: 'มาสคอตนกสุคุนะใต้แสงจันทร์สีแดง',
+    animated: true,
     tags: ['anime', 'curse', 'scarlet'],
   },
   {
@@ -177,6 +182,7 @@ const profiles = [
     description: 'นักรบเงาผู้สุขุม พร้อมปลุกพลังเนตรกลางคืน',
     image: '/profiles/madara-crimson.webp',
     alt: 'มาสคอตนกนักรบผมเข้มท่ามกลางแสงจันทร์แดง',
+    animated: true,
     tags: ['anime', 'ninja', 'crimson'],
   },
   {
@@ -185,6 +191,7 @@ const profiles = [
     description: 'นักดาบใจดีผู้ร่ายเพลงดาบมังกรวารี',
     image: '/profiles/tanjiro-water-dragon.webp',
     alt: 'นกทันจิโร่ในชุดลายตารางกับดาบ',
+    animated: true,
     tags: ['anime', 'swordsman', 'water'],
   },
   {
@@ -193,6 +200,7 @@ const profiles = [
     description: 'นักดาบสายฟ้าผู้รวดเร็วท่ามกลางคืนพายุ',
     image: '/profiles/zenitsu-storm.webp',
     alt: 'ชิบินกสีเหลืองพร้อมดาบท่ามกลางคืนพายุ',
+    animated: true,
     tags: ['anime', 'swordsman', 'lightning'],
   },
   {
@@ -202,6 +210,16 @@ const profiles = [
     image: '/profiles/bankai-orange.webp',
     alt: 'นกมาสคอตผมสีส้มพร้อมดาบในคืนจันทร์เต็มดวง',
     tags: ['anime', 'swordsman', 'bankai'],
+    animated: true,
+  },
+  {
+    id: 'penguin-sniper',
+    name: 'พิราบมือสไนเปอร์',
+    description: 'นักแม่นปีกคู่หูเงียบขรึม เล็งเป้าหมายได้แม่นยำ',
+    image: '/profiles/penguin-sniper.webp',
+    alt: 'เพนกวินนักแม่นปืนคู่กับหมาป่าสีดำ',
+    tags: ['anime', 'sniper', 'partner'],
+    animated: true,
   }
 ];
 

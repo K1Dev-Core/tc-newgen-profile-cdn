@@ -7,6 +7,7 @@ export type Profile = {
   image: string;
   alt: string;
   tags: string[];
+  animated?: boolean;
 };
 
 export type ProfileResponse = Profile & {
